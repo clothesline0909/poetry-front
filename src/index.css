@@ -1,0 +1,43 @@
+table, th, td {
+  font-family: arial, sans-serif;
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  cursor: pointer;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+ul {
+  list-style: none;
+}
+
+.pagination {
+  display: inline-block;
+}
+
+.page {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.page.current {
+  background-color: #4CAF50;
+  color: white;
+  border: 1px solid #4CAF50;
+} 
